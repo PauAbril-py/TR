@@ -7,7 +7,8 @@ import json
 from datetime import datetime
 
 # Import Local Files
-from format_output import *
+# from format_output import *
+from format_output_test import *
 from dirs import *
 
 # dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -21,7 +22,7 @@ if os.path.isdir(out_path) != True:
 if os.path.isfile(out_file_path) != True:
 	print('a')
 	try:
-		format_otuput()
+		format_output()
 	except Exception as e:
 		print(e)
 		error = open(err_file_path, 'a')

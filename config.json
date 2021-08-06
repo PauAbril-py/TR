@@ -5,11 +5,9 @@
 		"processor" : true,
 		"machine" : true,
 		"os" : true,
-		"disk" : {
-			"Total" : true,
-			"Used" : true,
-			"Free" : true
-		}
+		"Total" : true,
+		"Used" : true,
+		"Free" : true
 	},
 	"Output_type" : {
 		"print" : false,
