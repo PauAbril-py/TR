@@ -1,3 +1,6 @@
+# TODO : turn into a function and return instead of print
+# TODO : 
+
 import platform
 import os
 import shutil
